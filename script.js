@@ -1,0 +1,1 @@
+// script.js - Smooth scroll functionality, form validation, and gallery modal features
