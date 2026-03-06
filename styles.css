@@ -1,45 +1,26 @@
-.hero {
-  background-image: url('hero-bg.jpg');
-  background-size: cover;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: white;
+.example {
+  animation: fadeIn 0.5s ease-in-out;
 }
 
-.header {
-  font-family: 'Arial', sans-serif;
-  background-color: #282c34;
-  padding: 20px;
-  text-align: center;
-  color: white;
-}
-
-.card {
-  background: white;
-  border-radius: 8px;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 20px;
-  margin: 20px;
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 .button {
-  background-color: #5cb85c;
-  color: white;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: background-color 0.3s;
+  transition: background-color 0.3s ease;
 }
 
 .button:hover {
-  background-color: #4cae4c;
+  background-color: #4CAF50;
 }
 
-@media (max-width: 600px) {
-  .hero {
-    height: 50vh;
-  }
+.header {
+  font-size: 2em;
+  color: #333;
+  margin-bottom: 20px;
 }
